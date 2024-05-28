@@ -1,0 +1,76 @@
+
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Hand Gesture Recognition</title>
+</head>
+<body>
+    <h1>Hand Gesture Recognition</h1>
+    <img src="{% url 'index' %}" />
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Hand Gesture Recognition</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Function to send a POST request to the server with the captured image
+        function sendImage(imageData) {
+            $.ajax({
+                type: "POST",
+                url: "https://127.0.0.1:8000/",
+                data: { image_data: imageData },
+                success: function(response) {
+                    // Display the predicted hand gesture on the web page
+                    $("#prediction").text(response.prediction);
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+        }
+
+        // Function to capture an image from the video stream
+        function captureImage() {
+            var video = document.getElementById('video');
+            var canvas = document.createElement('canvas');
+            var context = canvas.getContext('2d');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            var imageData = canvas.toDataURL('image/png');
+
+            // Send the captured image to the server for prediction
+            sendImage(imageData);
+        }
+
+        // Function to start capturing images on a timer
+        function startCapture() {
+            setInterval(function() {
+                captureImage();
+            }, 5000); // Capture an image every 5 seconds
+        }
+    </script>
+</head>
+<body onload="startCapture()">
+ <body> --> 
+    <!-- <h1>Hand Gesture Recognition</h1>
+    <video id="video" autoplay></video>
+    <h2>Prediction: <span id="prediction"></span></h2>
+    <script>
+        // JavaScript code to access the webcam and stream video to the <video> element
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                var video = document.getElementById('video');
+                video.srcObject = stream;
+                video.play();
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+    </script>
+</body>
+</html>  -->
