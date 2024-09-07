@@ -6,9 +6,9 @@ Sign Companion is a full-stack web application developed using deep learning, co
 
 | **Overview**                         | **Features**                           | **User Interface**                | **Performance**                     | **Additional Information**          |
 |--------------------------------------|----------------------------------------|----------------------------------|------------------------------------|-------------------------------------|
-| [Sign Companion](#sign-companion)     | [Sign to Text](#sign-to-text)         | [Sign to Text](#sign-to-text)       | [Confusion Matrix](#confusion-matrix) | [Purpose](#purpose)                 |
-| [Technology Stack](#technology-stack) | [Text to Sign](#text-to-sign)         | [Text to Sign](#text-to-sign)       | [Accuracy and Loss Graphs](#training-and-testing-accuracyloss-graphs) | [Contribution](#contribution)       |
-|                                      | [Speech to Sign](#speech-to-sign)      | [Speech to Sign](#speech-to-sign)   | [Model Architecture](#model-architecture) | [Future Enhancements](#future-enhancements) |
+| [Sign Companion](#sign-companion)     | [Sign to Text](###sign-to-text)         | [Sign to Text](#sign-to-text)       | [Confusion Matrix](###confusion-matrix) | [Purpose](##purpose)                 |
+| [Technology Stack](##technology-stack) | [Text to Sign](###text-to-sign)         | [Text to Sign](#text-to-sign)       | [Accuracy and Loss Graphs](###training-and-testing-accuracyloss-graphs) | [Contribution](##contribution)       |
+|                                      | [Speech to Sign](###speech-to-sign)      | [Speech to Sign](#speech-to-sign)   | [Model Architecture](###model-architecture) | [Future Enhancements](##future-enhancements) |
 |                                      |                                        | [Contact Us](#contact-us)          |                                    |                                     |
 |                                      |                                        | [About Us](#about-us)              |                                    |                                     |
 |                                      |                                        | [Login](#login)                    |                                    |                                     |
