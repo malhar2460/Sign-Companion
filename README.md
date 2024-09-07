@@ -1,6 +1,19 @@
+
+ [![Python](https://img.shields.io/badge/Python-3.8-orange)](https://www.python.org/)
+  [![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.21.2-blue)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4-blue)](https://matplotlib.org/)
+  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0.24.2-yellow)](https://scikit-learn.org/)
+ [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.6-yellow)](https://www.tensorflow.org/)
+[![Django](https://img.shields.io/badge/Django-3.2-green)](https://www.djangoproject.com/)
+ [![React](https://img.shields.io/badge/React-17.0.2-green)](https://reactjs.org/)
+  [![MySQL](https://img.shields.io/badge/MySQL-8.0-lightblue)](https://www.mysql.com/)
+  
 # Sign Companion 🚀
 
-Sign Companion is a full-stack web application developed using deep learning, computer vision, and web technologies. It is designed to assist differently-abled individuals, particularly those who are deaf, mute, or blind, by translating Indian Sign Language (ISL) into text and converting text or speech into sign language.
+- Sign Companion is a full-stack web application developed using deep learning, computer vision, and web technologies.
+
+- It is designed to assist differently-abled individuals, particularly those who are deaf, mute, or blind, by translating Indian Sign Language (ISL) into text and converting text or speech into sign language.
 
 ## Table of Contents 📑
 
@@ -67,7 +80,9 @@ Sign Companion is a full-stack web application developed using deep learning, co
 
 ---
 
-## Key Features 🌟
+<p align="right"><a href="#table-of-contents-" style="color:#36AE7C;">Back to Top</a></p>
+
+## Key Features 🌟 
 
 ### 1. Sign to Text 
 This feature translates Indian Sign Language (ISL) signs into corresponding text, making communication easier for individuals who use ISL. The process involves several steps to ensure accurate recognition and translation of the sign. Here’s a detailed overview:
@@ -122,6 +137,9 @@ This feature converts spoken words into sign language:
 
 ---
 
+<p align="right"><a href="#table-of-contents-">back to top</a></p>
+
+
 ## Technology Stack 🛠️
 
 - **Backend:** Django
@@ -129,6 +147,8 @@ This feature converts spoken words into sign language:
 - **Deep Learning Model:** TensorFlow-based Convolutional Neural Network (CNN) trained on a custom dataset of 31,200 training samples and 6,240 testing samples, achieving 99% accuracy.
 
 ---
+
+
 
 ## Training and Testing Image Examples 🖼️
 
@@ -149,6 +169,9 @@ These are some examples of images used for testing the model:
      <img src="https://github.com/user-attachments/assets/b9bf460c-1ed1-4fae-88ab-b4005f0235e4" alt="Testing Image 1" width="600"/>
 
 ---
+
+<p align="right"><a href="#table-of-contents-">back to top</a></p>
+
 
 ## Model Performance 📈
 
@@ -182,6 +205,9 @@ Here’s a visual representation of the model architecture:
 <img src="templates/frontend/src/images/Modal_structure.png" alt="Model Architecture" width="350"/>
 
 ---
+
+<p align="right"><a href="#table-of-contents-">back to top</a></p>
+
 
 ## Purpose 🎯
 
