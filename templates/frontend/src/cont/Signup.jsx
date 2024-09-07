@@ -710,7 +710,6 @@ const Signup = () => {
           }
           else {
             setsuccess_msg(true)
-            localStorage.setItem('user_name',fname)
             setFname("")
             setLname("")
             setEmail("")

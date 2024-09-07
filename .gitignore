@@ -1,3 +1,4 @@
 templates/frontend/node_modules
 templates/node_modules
 templates/three/node_modules
+home/*.h5
